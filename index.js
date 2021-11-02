@@ -28,6 +28,7 @@ function areAllFourSameOrEqual(argOne, argTwo, argThree,argFour){
         return 'equal';
       }
     }
+    
  //if same value and data type
     //return string 'equal'
     if(argOne==argTwo && argThree ==argFour){
@@ -40,6 +41,8 @@ function areAllFourSameOrEqual(argOne, argTwo, argThree,argFour){
   //return null
   return null;
 }
+
+console.log(2 ===("2", 2, 2)) ;
 
 // console.log(areBothSame(true, 1))                       // returns true
 // console.log(areBothSame("2", 2))                        // returns true
